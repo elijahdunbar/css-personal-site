@@ -2,6 +2,8 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
+  line-height: 2;
 }
 
 h1 {
@@ -25,16 +27,22 @@ h3 {
 }
 
 hr {
-  border-color: grey;
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 5px;
+  border: dotted #C8E3D4 6px;
+  border-bottom: none;
+  margin: 100px auto;
   width: 2.5%;
 }
 
-p {
-  color: #40514E;
-  line-height: 2;
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .bio-paragraph {
@@ -86,18 +94,6 @@ p {
   margin: 100px auto;
   text-align: left;
   width: 50%;
-}
-
-.top-container {
-  background-color: #EAF6F6;
-  position: relative;
-  padding-top: 100px;
-}
-
-.bottom-container {
-  background-color: #66BFBF;
-  padding-bottom: 50px;
-  padding-top: 50px;
 }
 
 .top-cloud {
