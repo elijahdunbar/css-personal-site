@@ -39,6 +39,10 @@ hr {
   padding-top: 100px;
 }
 
+.middle-container {
+  margin: 100px 0;
+}
+
 .bottom-container {
   background-color: #66BFBF;
   padding-bottom: 50px;
@@ -118,7 +122,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Merriweather', serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -136,5 +140,6 @@ hr {
 }
 
 .contact-paragraph {
-  margin: 25px 0 50px;
+  width: 50%;
+  margin: 25px auto 50px;
 }
